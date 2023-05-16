@@ -16,7 +16,7 @@ const options = {
     url: 'https://youtube138.p.rapidapi.com/auto-complete/',
     params: {q: 'desp', hl: 'en', gl: 'IN'},
     headers: {
-      'X-RapidAPI-Key': process.env.REACT_APP_YOUTUBE_API_KEY || '6c3ae62d86msh4eee3cd23db21c4p161040jsnd722aa785156',
+      'X-RapidAPI-Key': process.env.REACT_APP_YOUTUBE_API_KEY || 'Your api key',
       'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
   };
